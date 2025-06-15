@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    width: 23rem;
+    border-radius: 11px;
+}
+
+.quest {
+    padding: 2rem;
+}
+
+.star {
+    background-color: hsl(217, 12%, 63%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.how {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.plea {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.ratings {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.number {
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 50%;
+    padding: 0.7rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3secs;
+    color: #fff;
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.number:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+#submit, #rate-again {
+    width: 19rem;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border-radius: 18px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3secs;
+}
+
+#submit:hover, #rate-again:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);;
+}
+
+.hidden {
+    display: none;
+}
+
+.answer {
+    padding: 2rem;
+    text-align: center;
+}
+
+.thank {
+    margin-bottom: 1rem;
+    width: 14rem;
+}
+
+.select {
+    font-size: 1rem;
+    background-color: hsl(217, 12%, 63%);
+    padding: 0.4rem;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 1.5rem;
+}
+
+.white {
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.app {
+    color: white;
+    line-height: 1.5;
+}
